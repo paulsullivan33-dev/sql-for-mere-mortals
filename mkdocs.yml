@@ -1,0 +1,23 @@
+site_name: SQL for Mere Mortals
+site_description: Plain-language SQL — no CS degree required.
+site_url: https://paulsullivan33-dev.github.io/sql-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Is SQL?: what-is-sql.md
+  - Your First Query: your-first-query.md
+  - 'SELECT: Asking Questions': select.md
+  - Changing Data: changing-data.md
+  - 'Joins: Combining Tables': joins.md
+  - Grouping and Aggregates: grouping.md
+  - NULLs: nulls.md
+  - Indexes: indexes.md
+  - SQLite: sqlite.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
